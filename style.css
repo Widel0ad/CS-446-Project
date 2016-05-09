@@ -1,0 +1,141 @@
+body{
+	padding: 0;
+	margin: 0;
+	overflow-y: scroll;
+	font-size: 18px;
+	text-align: center;
+	background-color: black;
+	height: 100%;
+}
+header{
+	height: 98px;
+	background: gray;
+	width:100%;
+	z-index: 10;
+	position: fixed;
+	margin-top: 0px;
+	opacity:0.8;
+	top:0px;
+}
+#Title ul li{
+	display: inline-block;
+	color: #ccc;
+	text-decoration: none;
+}
+#Title ul li a,visited{
+	color: black;
+	display: block;
+	text-decoration: none;
+}
+#T{
+	font-size: 300%;
+	
+}
+#r{
+	font-size: 250%;
+}
+#a{
+	font-size: 200%;
+}
+#c{
+	font-size: 150%;
+}
+#k{
+	font-size: 200%;
+}
+#M{
+	font-size: 250%;
+}
+#e{
+	font-size: 200%;
+}
+#Dark{
+	height:0;
+	margin: 0;
+	margin-top:-20px;
+}
+#Nav{
+	background-color: #222;
+	margin:0px;
+	margin-top:12px;
+}
+#Nav_Wrapper{
+	width: 960px;
+	margin: 0 auto;
+}
+#Nav ul{
+	list-style-type: none;
+	padding: 0;
+	margin: 0;
+	position: relative;
+}
+#Nav ul li{
+	display: inline-block;
+}
+#Nav ul li:hover{
+	background-color: #333;
+}
+#Nav ul li a,visited{
+	color: #ccc;
+	display: block;
+	padding: 15px;
+	text-decoration: none;
+}
+#Nav ul li a:hover{
+	color: #ccc;
+	text-decoration: none;
+}
+#Nav ul li:hover ul{
+	display: block;
+}
+#Nav ul ul{
+	display: none;
+	position: absolute;
+	background-color: #333;
+	border: 5px solid #222;
+	border-top: 0;
+	margin-left: -5px;
+	min-width: 150px;
+}
+#Nav ul ul li{
+	display: block;
+}
+#Nav ul ul li a,visited{
+	color: #ccc;
+}
+#Nav ul ul li a:hover{
+	color: #899;
+}
+#Scrolling_Banner{
+	width: 100%;
+	height: 48%;
+	position: fixed;
+	top: 122px;
+	background-image:url(Earth.jpg);
+	background-repeat:no-repeat;
+	background-size:cover;
+	background-position: 50% 80%;
+}
+#Content{
+	width: 100%;
+	height: 1500px;
+	position: relative;
+	top: 428px;
+	margin: 0px;
+}
+#sect_sectOne{
+	height: 100%;
+	background-image:url(city.jpg);
+}
+#sect_sectTwo{
+	height: 100%;
+	background-image:url(the-internet.jpg);
+}
+#sect_sectThree{
+	height: 100%;
+	background-image:url(hackers.jpg);
+}
+#sub_sectionOne{
+	height: 50%;
+	background-image:url(map.jpg);
+}
