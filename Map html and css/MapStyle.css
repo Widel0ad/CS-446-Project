@@ -4,6 +4,20 @@ html,body{
 	padding:0;
 }
 
+ul{
+	list-style-type: none;	
+	width:100%;
+}
+
+center{
+	font-size:larger;
+}
+
+.panelWrapper{
+	position:absolute;
+	z-index:99;
+}
+
 #map {
 	height:100%;
 	z-index: -1;
@@ -12,27 +26,21 @@ html,body{
 #findMyDevice{
 	width: 30%;
 	height: 35px;
-	z-index:99;
-	position: absolute;
 	bottom: 15px;
 	left: 35%;
 }
 
 #deviceInfo{
-	position: absolute;
 	width:20%;
 	height: 15%;
-	z-index:99;
 	background-color: white;
 	bottom: 15px;
 	right: 10%;
 }
 
 #menu{
-	position: absolute;
 	width:10%;
 	height: 25%;
-	z-index:99;
 	background-color: white;
 	bottom: 15px;
 	left: 0;
@@ -49,12 +57,11 @@ html,body{
 #infoPanel{
 	margin:2px;
 	padding:5px;
-	list-style-type: none;
 	font-size: large;
 }
 
 #infoList{
-	margin-bottom: 13px;
+	margin-bottom: 15px;
 }
 
 #menuButton{
@@ -62,7 +69,33 @@ html,body{
 	height:25%;
 }
 
-ul{
-	list-style-type: none;	
-	width:100%;
+#topInfo{
+	top:0px;
+	right:15px;
+	height:5%;
+	width: 25%;
+	background-color:white;
+}
+
+#helpInfo{
+	margin:0;
+	padding:0;
+	height:25%;
+}
+
+#topInfo:hover{
+	background-color: white;
+	height:20%;
+	position: absolute;
+}
+
+ul.dropdown{
+	display:none;
+	margin:0;
+	padding:0;
+}
+
+#topInfo:hover ul.dropdown{
+	display:block;
+	padding-top:25px;
 }

@@ -5,16 +5,24 @@
     <link rel="stylesheet" type="text/css" href="MapStyle.css">
 	</head>
 	<body>
+
+		<!-- MAP -->
 		<div id="map"></div>
-		<div id="deviceInfo">
-			<ul id="infoPanel">
+
+		<!-- RIGHT SIDE DEVICE INFO -->
+		<div id="deviceInfo" class="panelWrapper">
+			<ul id="menuButtonWrapper">
 				<li id="infoList"><a>Make:</a></li>
 				<li id="infoList"><a>Model:</a></li>
 				<li id="infoList"><a>Serial:</a></li>
 			</ul>
 		</div>
-		<button id="findMyDevice">Find My Device</button>
-		<div id="menu">
+
+		<!-- BOTTOM CENTER BUTTON -->
+		<button id="findMyDevice" class="panelWrapper">Find My Device</button>
+
+		<!-- RIGHT SIDE INFO -->
+		<div id="menu" class="panelWrapper">
 			<ul id="menuButtonWrapper">
 				<button id="menuButton">Dashboard</button>
 				<button id="menuButton">Home</button>
@@ -23,7 +31,14 @@
 			</ul>
 		</div>
 
-
+		<!-- TOP INFO DIV -->
+		<div id="topInfo" class="panelWrapper"><center>HELP</center>
+			<ul class="dropdown" id="menuButtonWrapper">
+				<button id="menuButton">Home</button>
+				<button id="menuButton">Support</button>
+				<button id="menuButton">Other Device</button>
+			</ul>
+		</div>
 
 
 		<script>
