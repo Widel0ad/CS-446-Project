@@ -6,4 +6,30 @@ html,body{
 
 #map {
 	height:100%;
+	z-index: -1;
+}
+
+#findMyDevice{
+	width: 30%;
+	height: 35px;
+	z-index:99;
+	position: absolute;
+	bottom: 15px;
+	left: 35%;
+}
+
+#deviceInfo{
+	position: absolute;
+	width:20%;
+	height: 15%;
+	z-index:99;
+	background-color: blue;
+	bottom: 15px;
+	right: 10%;
+}
+
+ul{
+	margin:0;
+	padding:5px;
+	list-style-type: none;
 }
