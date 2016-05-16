@@ -2,7 +2,9 @@
 <html>
 	<head>
 		<title>Map</title>
-    <link rel="stylesheet" type="text/css" href="MapStyle.css">
+		<link rel="stylesheet" href="https://www.google.com/fonts#UsePlace:use/Collection:Roboto:400,900" type="text/css"/>
+    	<link rel="stylesheet" type="text/css" href="MapStyle.css">
+
 	</head>
 	<body>
 
@@ -21,18 +23,18 @@
 		<!-- BOTTOM CENTER BUTTON -->
 		<button id="findMyDevice" class="panelWrapper">Find My Device</button>
 
-		<!-- RIGHT SIDE INFO -->
+		<!-- LEFT SIDE INFO -->
 		<div id="menu" class="panelWrapper">
 			<ul id="menuButtonWrapper">
 				<button id="menuButton">Dashboard</button>
-				<button id="menuButton">Home</button>
+				<button id="menuButton" onClick="parent.location='index1.html'">Home</button>
 				<button id="menuButton">Support</button>
 				<button id="menuButton">Other Device</button>
 			</ul>
 		</div>
 
 		<!-- TOP INFO DIV -->
-		<div id="topInfo" class="panelWrapper"><center>HELP</center>
+		<div id="topInfo" class="panelWrapper">HELP
 			<ul class="dropdown" id="menuButtonWrapper">
 				<button id="menuButton">Home</button>
 				<button id="menuButton">Support</button>
