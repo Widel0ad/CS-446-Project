@@ -16,9 +16,7 @@ ul{
 	width:100%;
 }
 
-center{
-	font-size:larger;
-}
+
 
 .panelWrapper{
 	position:absolute;
@@ -36,19 +34,34 @@ center{
 	height: 35px;
 	bottom: 15px;
 	left: 35%;
+	background-color: royalblue;
+	border:none;
+    color: white;
+    text-decoration: none;
+    cursor: pointer;
+    font-size: large;
 }
+
+#findMyDevice:hover{
+	background-color:black;
+	transition: background-color .1s ease-in;
+
+}
+
+
 
 #deviceInfo{
 	width:220px;
 	height: 15%;
-	background-color: white;
+	background-color: royalblue;
+	color:white;
 	bottom: 15px;
 	right: 10%;
 }
 
 #menu{
 	width:100px;
-	height: 25%;
+	height: 100px;
 	background-color: white;
 	bottom: 15px;
 	left: 0;
@@ -62,50 +75,29 @@ center{
 }
 
 
-#infoPanel{
-	margin:2px;
-	padding:5px;
-	font-size: large;
-}
-
 #infoList{
 	margin-bottom: 15px;
+	margin-left:4px;
 }
 
 #menuButton{
 	width:100%;
-	height:25%;
+	height:50%;
+	background-color: royalblue;
+    border-bottom: solid black 1px;
+    border-top: none;
+    border-right:0;
+    border-left:0;
+    color: white;
+    text-decoration: none;
+    cursor: pointer;
+    font-size: large;
 }
 
-#topInfo{
-	top:0px;
-	right:15px;
-	height:5%;
-	width: 100px;
-	background-color:white;
-}
+#menuButton:hover{
+	background-color:black;
+	transition: background-color .2s ease-in;
 
-#helpInfo{
-	margin:0;
-	padding:0;
-	height:25%;
-}
-
-#topInfo:hover{
-	background-color: white;
-	height:20%;
-	position: absolute;
-}
-
-ul.dropdown{
-	display:none;
-	margin:0;
-	padding:0;
-}
-
-#topInfo:hover ul.dropdown{
-	display:block;
-	padding-top:25px;
 }
 
 #deviceInput{
@@ -117,11 +109,12 @@ ul.dropdown{
 }
 
 #deviceInputPanel{
-	background-color: white;
+	background-color: royalblue;
 	width:270px;
 	left:50%;
 	margin-left:-15%;
 	top:50%;
+	color:white;
 }
 
 #inputList{
@@ -129,7 +122,18 @@ ul.dropdown{
 }
 
 #findItButton{
-	border: 1px solid black;
 	padding:1px;
 	margin:5px;
+	background-color: white;
+    text-decoration: none;
+    cursor: pointer;
+    color:black;
+    border:solid black 1px;
+}
+
+#findItButton:hover{
+	background-color: red;
+	color: white;
+	transition: background-color .15s ease-in;
+	border:none;
 }
