@@ -20,13 +20,14 @@ header{
 	display: inline-block;
 	color: #ccc;
 	text-decoration: none;
+	z-index:99;
 }
 
 #Title button {
     display: flex;
     flex-direction: row;
     float: right;
-
+    z-index:99;
 
     background-color: royalblue;
     border: none;
@@ -68,6 +69,7 @@ header{
 	height:0;
 	margin: 0;
 	margin-top:-20px;
+	color:black;
 }
 #Nav{
 	background-color: #222;
@@ -77,7 +79,7 @@ header{
 	border-bottom: solid 2px;
 }
 #Nav_Wrapper{
-	width: 960px;
+	width: 900px;
 	margin: 0 auto;
 }
 #Nav ul{
