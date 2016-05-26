@@ -16,19 +16,19 @@
 					<table>
 						<tr>
 							<td>DeviceID:</td>
-							<td><input type="text" name="deviceID"></td>
+							<td><input type="text" id="deviceID"></td>
 						</tr>
 						<tr>
 							<td>Make:</td>
-							<td><input type="text"></td>
+							<td><input type="text" id="make"></td>
 						</tr>
 						<tr>
 							<td>Model:</td>
-							<td><input type="text"></td>
+							<td><input type="text" id="model"></td>
 						</tr>
 						<tr>
 							<td>Serial:</td>
-							<td><input type="text"></td>
+							<td><input type="text" id="serial"></td>
 						</tr>
 						<th>
 							<td><submit id="findItButton">FIND IT!</submit></td>
@@ -45,10 +45,10 @@
 		<!-- RIGHT SIDE DEVICE INFO -->
 		<div id="deviceInfo" class="panelWrapper">
 			<ul id="menuButtonWrapper">
-				<li id="infoList"><a>DeviceID:<text id="UserID"></text></a></li>
-				<li id="infoList"><a>Make:<text id="UserMake"></text></a></li>
-				<li id="infoList"><a>Model:<text id="UserModel"></text></a></li>
-				<li id="infoList"><a>Serial:<text id="UserSerial"></text></a></li>
+				<li id="infoList"><a>DeviceID:<span id="UserID"></span></a></li>
+				<li id="infoList"><a>Make:<span id="UserMake"></span></a></li>
+				<li id="infoList"><a>Model:<span id="UserModel"></span></a></li>
+				<li id="infoList"><a>Serial:<span id="UserSerial"></span></a></li>
 			</ul>
 		</div>
 
@@ -65,26 +65,26 @@
 			</ul>
 		</div>
 
-		<!-- TOP INFO DIV -->
-		<div id="topInfo" class="panelWrapper">HELP
-			<ul class="dropdown" id="menuButtonWrapper">
-				<button id="menuButton">Home</button>
-				<button id="menuButton">Support</button>
-				<button id="menuButton">Other Device</button>
-			</ul>
-		</div>
-
-
 		<script>
 			
 			//create the map
 			var map;
 			function initMap(){
+				var myLatLng = {lat:46.9965, lng:-120.5478};
 				map = new google.maps.Map(document.getElementById('map'),{
-					center:{lat:-34.397, lng:150.644},
-					zoom:8
+					center: myLatLng,
+					zoom:15
 				});
+
+			var centerMarker = new google.maps.Marker({
+				position: myLatLng,
+				map: map,
+				title: 'buttholes'
+			})
+
+
 			}
+
 
 		</script>
 		<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBe0z3LmTfYHz9v9BIwTiXRXwr6XMYntMw&callback=initMap" async defer></script>
