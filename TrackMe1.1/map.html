@@ -4,19 +4,51 @@
 		<title>Map</title>
 		<link rel="stylesheet" href="https://www.google.com/fonts#UsePlace:use/Collection:Roboto:400,900" type="text/css"/>
     	<link rel="stylesheet" type="text/css" href="MapStyle.css">
-
+    	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.2/jquery.min.js"></script>
+    	<script type="text/javascript" src="scripts.js"></script>
 	</head>
 	<body>
 
+		<!--INPUT DIV-->
+		<div id="deviceInput">
+			<div id="deviceInputPanel" class="panelWrapper">
+				<form>
+					<table>
+						<tr>
+							<td>DeviceID:</td>
+							<td><input type="text" name="deviceID"></td>
+						</tr>
+						<tr>
+							<td>Make:</td>
+							<td><input type="text"></td>
+						</tr>
+						<tr>
+							<td>Model:</td>
+							<td><input type="text"></td>
+						</tr>
+						<tr>
+							<td>Serial:</td>
+							<td><input type="text"></td>
+						</tr>
+						<th>
+							<td><submit id="findItButton">FIND IT!</submit></td>
+						</th>
+					</table>
+				</form>
+			</div>
+		</div>
+
 		<!-- MAP -->
-		<div id="map"></div>
+		<div id="map">
+		</div>
 
 		<!-- RIGHT SIDE DEVICE INFO -->
 		<div id="deviceInfo" class="panelWrapper">
 			<ul id="menuButtonWrapper">
-				<li id="infoList"><a>Make:</a></li>
-				<li id="infoList"><a>Model:</a></li>
-				<li id="infoList"><a>Serial:</a></li>
+				<li id="infoList"><a>DeviceID:<text id="UserID"></text></a></li>
+				<li id="infoList"><a>Make:<text id="UserMake"></text></a></li>
+				<li id="infoList"><a>Model:<text id="UserModel"></text></a></li>
+				<li id="infoList"><a>Serial:<text id="UserSerial"></text></a></li>
 			</ul>
 		</div>
 
