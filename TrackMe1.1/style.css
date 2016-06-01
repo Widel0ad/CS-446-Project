@@ -36,8 +36,13 @@ header{
     text-decoration: none;
     margin: 4px 2px;
     cursor: pointer;
-
 }
+
+#Title button:hover{
+	background-color:black;
+	transition: background-color .1s ease-in;
+}
+
 #Title ul li a,visited{
 	color: black;
 	display: block;

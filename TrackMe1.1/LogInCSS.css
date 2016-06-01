@@ -17,7 +17,6 @@
     margin: auto;
     width: 500px;
     height: 500px;
-
 }
 
 input[type=text]{
@@ -39,7 +38,11 @@ button[type=button]{
     text-decoration: none;
     margin: 4px 2px;
     cursor: pointer;
+}
 
+button[type=button]:hover{
+    background-color:black;
+    transition: background-color .3s ease-in;
 }
 
 body{

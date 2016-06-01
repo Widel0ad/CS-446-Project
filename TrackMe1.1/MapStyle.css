@@ -16,8 +16,6 @@ ul{
 	width:100%;
 }
 
-
-
 .panelWrapper{
 	position:absolute;
 	z-index:98;
@@ -48,11 +46,9 @@ ul{
 
 }
 
-
-
 #deviceInfo{
-	width:220px;
-	height: 15%;
+	width:250px;
+	height: 100px;
 	background-color: royalblue;
 	color:white;
 	bottom: 15px;
@@ -74,10 +70,9 @@ ul{
 	padding:0;
 }
 
-
 #infoList{
-	margin-bottom: 15px;
-	margin-left:4px;
+height:25%;
+margin-left:4px;
 }
 
 #menuButton{
