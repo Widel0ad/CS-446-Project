@@ -149,36 +149,44 @@ header{
 	margin: 0px;
 }
 #sect_sectOne{
-	height: 70%;
+	height: 50%;
+	width: 100%;
 	border-top: solid .5px;
-	background-image:url(Haze.jpg);
+	background-image:url(draw.jpg);
 	background-size: cover;
 	background-attachment: fixed;
-	background-position: 0% -20%;
+	background-repeat:no-repeat;
+	background-size:cover;
+	background-position: 0px 10px;
 }
 #sect_sectTwo{
-	height: 70%;
+	height: 50%;
+	width: 100%;
 	background-image:url(city.jpg);
 	background-size: cover;
 	background-attachment: fixed;
 	background-position: 50% 80%;
 }
 #sect_sectThree{
-	height: 78%;
+	height: 50%;
+	width: 100%;
 	background-image:url(hackers.jpg);
 	background-size: cover;
 	background-attachment: fixed;
 	background-position: 0% 0%;
 }
 #sub_sectionOne{
-	height: 40%;
+	height: 50%;
+	width: 100%;
 	border-top: solid .5px;
-	background-image:url(DarkClouds.jpg);
+	background-image:url(clouds1.jpg);
+	background-position: 10% 10%;
+	background-repeat: no-repeat;
 	background-size: cover;
-	background-position: 50% 35%;
 }
 #sub_sectionTwo{
-	height: 40%;
+	height: 50%;
+	width: 100%;
 	border-top: solid .5px;
 	background-image:url(DarkSky1.jpg);
 	background-size: cover;
@@ -194,25 +202,55 @@ header{
 	border-color:black;
 }
 #Description1{
-    margin: 30px;
-    background-color: #ffffff;
-    border: 1px solid black;
-    opacity: 0.45;
-	border-color:black;
+	position: absolute;
+	top: 5%;
+	left: 0%;
+	margin-left: 1%;
+	margin-right: 52%;
+	
+	font-family: "Times New Roman", Times, serif;
+	font-size: 120%;
+	font-weight: 700;
+	
+	border: solid 1px;
+	
+	border-radius: 25px;
+    padding: 20px;
+	background-color: rgba(255, 255, 255, 0.6);
 }
 #Description2{
-	margin: 30px;
-    background-color: #ffffff;
-    border: 1px solid black;
-    opacity: 0.45;
-	border-color:black;
+	position: relative;
+	top: 5%;
+	left: 0%;
+	margin-left: 1%;
+	margin-right: 52%;
+	
+	font-family: "Times New Roman", Times, serif;
+	font-size: 120%;
+	font-weight: 700;
+	
+	border: solid 1px;
+	
+	border-radius: 25px;
+    padding: 20px;
+	background-color: rgba(255, 255, 255, 0.6);
 }
 #Description3{
-	margin: 30px;
-    background-color: #ffffff;
-    border: 1px solid black;
-    opacity: 0.9;
-	border-color:black;
+	position: relative;
+	top: 5%;
+	left: 0%;
+	margin-left: 1%;
+	margin-right: 52%;
+	
+	font-family: "Times New Roman", Times, serif;
+	font-size: 120%;
+	font-weight: 700;
+	
+	border: solid 1px;
+	
+	border-radius: 25px;
+    padding: 20px;
+	background-color: rgba(255, 255, 255, 0.6);
 }
 #Facebook{
 	
@@ -227,16 +265,36 @@ header{
 	
 }
 #Description4{
-	margin: 30px;
-    background-color: #ffffff;
-    border: 1px solid black;
-    opacity: 0.4;
-	border-color:black;
+	position: relative;
+	top: 5%;
+	left: 0%;
+	margin-left: 1%;
+	margin-right: 52%;
+	
+	font-family: "Times New Roman", Times, serif;
+	font-size: 120%;
+	font-weight: 700;
+	
+	border: solid 1px;
+	
+	border-radius: 25px;
+    padding: 20px;
+	background-color: rgba(255, 255, 255, 0.6);
 }
 #Description5{
-	margin: 30px;
-    background-color: #ffffff;
-    border: 1px solid black;
-    opacity: 0.6;
-	border-color:black;
+	position: relative;
+	top: 5%;
+	left: 0%;
+	margin-left: 1%;
+	margin-right: 52%;
+	
+	font-family: "Times New Roman", Times, serif;
+	font-size: 120%;
+	font-weight: 700;
+	
+	border: solid 1px;
+	
+	border-radius: 25px;
+    padding: 20px;
+	background-color: rgba(255, 255, 255, 0.6);
 }
